@@ -1,0 +1,20 @@
+.FocusForm{
+    margin: 2rem;
+    
+    border: 1px solid black;
+    width: 20rem;
+    
+    padding: 2rem;
+
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0);
+    transition: background 0.3s ease;
+}
+
+.FocusForm > input{
+    margin: 0.3rem;
+}
+
+.FocusForm:focus-within {
+    background: #f4d35e;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
+}
